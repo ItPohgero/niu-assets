@@ -12,7 +12,7 @@ const split = (list, len) => {
     return result.reverse();
 };
 
-function rupiahWords(num) {
+function rupiahwords(num) {
     if (num === 100) {
         return "seratus";
     } else if (num === 1000) {
@@ -22,11 +22,9 @@ function rupiahWords(num) {
     } else if (num === 100000) {
         return "seratus ribu"
     } else {
-
         const number = ["satu", "dua", "tiga", "empat", "lima", "enam", "tujuh", "delapan", "sembilan"];
         const quantity = ["", "puluh", "ratus", "ribu", "juta", "miliar", "triliun"];
         const subQuantity = ["", "ribu", "juta", "miliar", "triliun"];
-
         const numberString = num.toString();
         const tm = split(numberString.split(""), 3);
 
@@ -58,6 +56,7 @@ function rupiahWords(num) {
                 tm[i].push(subQuantity[(tm.length - 1) - i]);
             }
         }
+
         return tm.join(" ")
             .replace(/,/g, " ")
             .replace(/  +/g, " ")
@@ -65,4 +64,4 @@ function rupiahWords(num) {
     }
 };
 
-export default rupiahWords;
+export default rupiahwords;

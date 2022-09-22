@@ -1,15 +1,20 @@
 # To Words Rupiah
+Membaca angka rupiah. Anda cukup install package to-words-rupiah dan gunakan function 
 
 # Install
-`npm i to-words-rupiah --save`
+Salin 
+```npm i to-words-rupiah --save```
+atau
+```yarn add to-words-rupiah```
+
 
 ```
-import rupiahWords from 'to-words-rupiah';
+import rupiahwords from 'to-words-rupiah';
 
-let data =  rupiahWords(12000);
-// dua belas ribu rupiah
+let data =  rupiahwords(12000);
+// dua belas ribu
 
 ```
 
 
-BAGIKAN SEGELAS KOPI
+Berbagi secangkir kopi!
