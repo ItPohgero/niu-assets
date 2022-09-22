@@ -4,10 +4,9 @@ Membaca angka rupiah. Anda cukup install package to-words-rupiah dan gunakan fun
 # Install
 Salin 
 ```npm i to-words-rupiah --save```
-atau
-```yarn add to-words-rupiah```
 
 
+# Usage
 ```
 import rupiahwords from 'to-words-rupiah';
 
