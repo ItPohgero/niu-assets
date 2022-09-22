@@ -1,6 +1,6 @@
 {
   "name": "to-words-rupiah",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "For converting currency to text in Indonesian",
   "main": "dist/index.js",
   "scripts": {
@@ -33,5 +33,8 @@
   "bugs": {
     "url": "https://github.com/ItPohgero/to-words-rupiah/issues"
   },
-  "homepage": "https://github.com/ItPohgero/to-words-rupiah#readme"
+  "homepage": "https://github.com/ItPohgero/to-words-rupiah#readme",
+  "dependencies": {
+    "to-words-rupiah": "^1.0.4"
+  }
 }
