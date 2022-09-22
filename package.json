@@ -1,0 +1,22 @@
+{
+  "name": "to-words-rupiah",
+  "version": "1.0.0",
+  "description": "For converting currency to text in Indonesian",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ItPohgero/to-words-rupiah.git"
+  },
+  "keywords": [
+    "rupiah"
+  ],
+  "author": "Wahyu Agus Arifin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ItPohgero/to-words-rupiah/issues"
+  },
+  "homepage": "https://github.com/ItPohgero/to-words-rupiah#readme"
+}
