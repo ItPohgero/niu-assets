@@ -64,4 +64,4 @@ function rupiahwords(num) {
     }
 };
 
-export default rupiahwords;
+module.exports = rupiahwords;
