@@ -1,8 +1,8 @@
 {
   "name": "to-words-rupiah",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "For converting currency to text in Indonesian",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,9 +11,24 @@
     "url": "git+https://github.com/ItPohgero/to-words-rupiah.git"
   },
   "keywords": [
-    "rupiah"
+    "rupiah",
+    "currency",
+    "to-words",
+    "to words",
+    "number to words",
+    "number to words currency",
+    "international number to words",
+    "international number to words currency",
+    "convert-numbers",
+    "i18n",
+    "converter",
+    "number",
+    "word"
   ],
-  "author": "Wahyu Agus Arifin",
+  "author": {
+    "name": "Wahyu Agus Arifin",
+    "email": "itpohgero@gmail.com"
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ItPohgero/to-words-rupiah/issues"

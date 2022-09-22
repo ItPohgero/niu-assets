@@ -1,4 +1,4 @@
-Package
+# To Words Rupiah
 
 # Install
 `npm i to-words-rupiah --save`
@@ -6,7 +6,10 @@ Package
 ```
 import rupiahWords from 'to-words-rupiah';
 
-let data = rupiahWords(12000);
+let data =  rupiahWords(12000);
 // dua belas ribu rupiah
 
 ```
+
+
+BAGIKAN SEGELAS KOPI

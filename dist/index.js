@@ -12,7 +12,7 @@ const split = (list, len) => {
     return result.reverse();
 };
 
- function rupiahWords(num) {
+function rupiahWords(num) {
     if (num === 100) {
         return "seratus";
     } else if (num === 1000) {
@@ -65,4 +65,4 @@ const split = (list, len) => {
     }
 };
 
-module.exports = rupiahWords;
+export default rupiahWords;
