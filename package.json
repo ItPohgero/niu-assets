@@ -1,6 +1,6 @@
 {
   "name": "to-words-rupiah",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "For converting currency to text in Indonesian",
   "main": "dist/index.js",
   "scripts": {
