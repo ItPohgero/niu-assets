@@ -31,6 +31,8 @@ function RupiahWords(num: number): string {
     return 'sepuluh juta'
   } else if (num === 100_000_000) {
     return 'seratus juta'
+  } else if (num === 1_000_000_000) {
+    return 'satu milyar'
   } else if (num === 10_000_000_000) {
     return 'sepuluh milyar'
   } else if (num === 100_000_000_000) {
