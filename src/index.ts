@@ -13,14 +13,34 @@ const SplitData = (list: string[], len: number): string[][] => {
 }
 
 function RupiahWords(num: number): string {
-  if (num === 100) {
+  if (num === 0) {
+    return 'nol'
+  } else if (num === 10) {
+    return 'sepuluh'
+  } else if (num === 100) {
     return 'seratus'
   } else if (num === 1000) {
     return 'seribu'
-  } else if (num === 10000) {
+  } else if (num === 10_000) {
     return 'sepuluh ribu'
-  } else if (num === 100000) {
+  } else if (num === 100_000) {
     return 'seratus ribu'
+  } else if (num === 1_000_000) {
+    return 'satu juta'
+  } else if (num === 10_000_000) {
+    return 'sepuluh juta'
+  } else if (num === 100_000_000) {
+    return 'seratus juta'
+  } else if (num === 10_000_000_000) {
+    return 'sepuluh milyar'
+  } else if (num === 100_000_000_000) {
+    return 'seratus milyar'
+  } else if (num === 1_000_000_000_000) {
+    return 'satu triliun'
+  } else if (num === 10_000_000_000_000) {
+    return 'sepuluh triliun'
+  } else if (num === 100_000_000_000_000) {
+    return 'seratus triliun'
   } else {
     const number = ['satu', 'dua', 'tiga', 'empat', 'lima', 'enam', 'tujuh', 'delapan', 'sembilan']
     const quantity = ['', 'puluh', 'ratus', 'ribu', 'juta', 'miliar', 'triliun']

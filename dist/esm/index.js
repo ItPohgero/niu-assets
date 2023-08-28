@@ -11,7 +11,13 @@ var SplitData = function (list, len) {
     return result.reverse();
 };
 function RupiahWords(num) {
-    if (num === 100) {
+    if (num === 0) {
+        return 'nol';
+    }
+    else if (num === 10) {
+        return 'sepuluh';
+    }
+    else if (num === 100) {
         return 'seratus';
     }
     else if (num === 1000) {
@@ -22,6 +28,30 @@ function RupiahWords(num) {
     }
     else if (num === 100000) {
         return 'seratus ribu';
+    }
+    else if (num === 1000000) {
+        return 'satu juta';
+    }
+    else if (num === 10000000) {
+        return 'sepuluh juta';
+    }
+    else if (num === 100000000) {
+        return 'seratus juta';
+    }
+    else if (num === 10000000000) {
+        return 'sepuluh milyar';
+    }
+    else if (num === 100000000000) {
+        return 'seratus milyar';
+    }
+    else if (num === 1000000000000) {
+        return 'satu triliun';
+    }
+    else if (num === 10000000000000) {
+        return 'sepuluh triliun';
+    }
+    else if (num === 100000000000000) {
+        return 'seratus triliun';
     }
     else {
         var number = ['satu', 'dua', 'tiga', 'empat', 'lima', 'enam', 'tujuh', 'delapan', 'sembilan'];
