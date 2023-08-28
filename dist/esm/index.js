@@ -38,6 +38,9 @@ function RupiahWords(num) {
     else if (num === 100000000) {
         return 'seratus juta';
     }
+    else if (num === 1000000000) {
+        return 'satu milyar';
+    }
     else if (num === 10000000000) {
         return 'sepuluh milyar';
     }
