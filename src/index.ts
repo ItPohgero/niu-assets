@@ -41,6 +41,8 @@ function RupiahWords(num: number): string {
     return 'sepuluh triliun'
   } else if (num === 100_000_000_000_000) {
     return 'seratus triliun'
+  } else if (num >= 1_000_000_000_000_000) {
+    return 'batas maksimum'
   } else {
     const number = ['satu', 'dua', 'tiga', 'empat', 'lima', 'enam', 'tujuh', 'delapan', 'sembilan']
     const quantity = ['', 'puluh', 'ratus', 'ribu', 'juta', 'miliar', 'triliun']

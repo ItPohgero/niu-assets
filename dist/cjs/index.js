@@ -55,6 +55,9 @@ function RupiahWords(num) {
     else if (num === 100000000000000) {
         return 'seratus triliun';
     }
+    else if (num >= 1000000000000000) {
+        return 'batas maksimum';
+    }
     else {
         var number = ['satu', 'dua', 'tiga', 'empat', 'lima', 'enam', 'tujuh', 'delapan', 'sembilan'];
         var quantity = ['', 'puluh', 'ratus', 'ribu', 'juta', 'miliar', 'triliun'];

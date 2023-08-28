@@ -22,4 +22,7 @@ const Index = () => {
 }
 ```
 
+### Batas maksimal
+Batas maksimal >= 1_000_000_000_000_000
+
 created by wahyu agus arifin - owner itpohgero.com
