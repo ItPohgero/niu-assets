@@ -11,10 +11,10 @@ dengan YARN
 
 ### Penggunaan
 ```javascript-4-index.tsx
-import rupiahwords from 'to-words-rupiah';
+import RupiahWords from 'to-words-rupiah';
 
 const Index = () => {
-    let data =  rupiahwords(12000);
+    let data =  RupiahWords(12000);
     return (
         <div>{data}</div>
         // dua belas ribu
