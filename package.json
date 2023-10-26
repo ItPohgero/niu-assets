@@ -1,7 +1,7 @@
 {
-  "name": "to-words-rupiah",
-  "version": "2.0.4",
-  "description": "For converting currency to text in Indonesian",
+  "name": "niu-assets",
+  "version": "0.1.0",
+  "description": "NIU Assets for UI components",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
   "types": "./dist/esm/index.d.ts",
@@ -15,28 +15,20 @@
     "prepare": "npm run build",
     "prepublishOnly": "npm test && npm run prettier && npm run lint"
   },
-  "repository": "git+https://github.com/ItPohgero/to-words-rupiah.git",
+  "repository": "git+https://github.com/ItPohgero/niu-assets.git",
   "keywords": [
-    "rupiah",
-    "currency",
-    "to-words",
-    "to words",
-    "number to words",
-    "number to words currency",
-    "international number to words",
-    "international number to words currency",
-    "convert-numbers",
-    "i18n",
-    "converter",
-    "number",
-    "word"
+    "niu",
+    "nilau universal",
+    "wahyu agus arifin",
+    "it pohgero",
+    "startup"
   ],
   "author": "Wahyu Agus Arifin <itpohgero@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ItPohgero/to-words-rupiah/issues"
+    "url": "https://github.com/ItPohgero/niu-assets/issues"
   },
-  "homepage": "https://itpohgero.com/package/to-words-rupiah",
+  "homepage": "https://github.com/ItPohgero/niu-assets.git",
   "peerDependencies": {
     "react": "^18.2.0"
   },
